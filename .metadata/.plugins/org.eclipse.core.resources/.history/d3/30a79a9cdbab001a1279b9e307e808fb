@@ -1,0 +1,14 @@
+package Eid;
+
+public class First<T>{
+
+	public T content;
+
+	public First(T content) {
+		this.content = content;
+	}
+	
+
+}
+
+

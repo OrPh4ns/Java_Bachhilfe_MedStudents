@@ -1,0 +1,11 @@
+package Eid;
+
+public class First<T>{
+
+	public T content;
+
+	
+
+}
+
+

@@ -1,0 +1,22 @@
+package application;
+
+import java.awt.Label;
+import java.awt.TextArea;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
+
+public class control {
+	
+	@FXML TextField n1;
+	@FXML TextArea tx;
+	
+
+	
+	@FXML void Oncheck() {
+
+		tx.setEditable(false);
+		
+	}
+
+}

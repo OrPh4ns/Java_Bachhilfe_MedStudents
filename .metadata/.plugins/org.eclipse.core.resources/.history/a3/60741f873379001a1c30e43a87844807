@@ -1,0 +1,64 @@
+package application;
+
+import java.awt.event.ActionEvent;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
+
+public class Control {
+
+    @FXML
+    private TextArea yes;
+
+    @FXML
+    private TextArea no;
+
+    @FXML
+    private TextField website;
+
+    @FXML
+    void OnCheck() throws InterruptedException {
+
+//    	String website = this.website.getText();
+//    	String file = "file.html";
+//    	String[] regex = {"http","https","ftp","mailto","talent","file","nfs","stmp"};
+//    	
+//    	for(int i = 0 ; i < regex.length;i++) {Thread.sleep(2000);
+//    		try {
+//				URL u = new URL(regex[i],website,file);
+//				
+//				System.out.println("Yes : "+regex[i]);
+//				
+//			} catch (Exception e) {
+//				System.out.println(regex[i]);
+//				
+//			}
+//    	}
+    	
+    	
+    	String website = this.website.getText();
+    	String file = "file.html";
+    	String[] regex = {"http","https","ftp","mailto","talent","file","nfs","stmp"};
+    	
+    	for(int i = 0 ; i < regex.length;i++) {Thread.sleep(1000);
+    		try {
+				URL u = new URL(regex[i],website,file);
+				
+				yes.appendText(regex[i]+"\n");
+		
+				
+			} catch (MalformedURLException e) {
+				no.appendText(regex[i]+"\n");
+
+				
+				
+			}
+    	}
+		
+    	
+    }
+
+}

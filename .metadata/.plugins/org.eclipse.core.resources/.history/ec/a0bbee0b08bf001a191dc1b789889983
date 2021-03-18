@@ -1,0 +1,15 @@
+package Anfang;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Druckmich {
+	public static void main(String[] args) {
+		JFrame f = new JFrame("PMI");
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		f.setSize(240,240);
+		f.setVisible(true);
+		JButton b = new JButton("Druck mich !");
+	}
+
+}

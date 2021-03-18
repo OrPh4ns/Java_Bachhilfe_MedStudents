@@ -1,0 +1,18 @@
+import java.util.Random;
+
+public class List_Maker {
+
+	public static void main(String[] args) {
+
+		Random r = new Random();
+
+		String x = "abcdefghijklmnopqrstuvwxyz";
+		String a = "abcdefghijklmnopqrstuvwxyz";
+		for(int i = 0; i < 500; i++) {
+			System.out.println(r.nextInt(9)+(a.charAt(r.nextInt(25)))+x.charAt(r.nextInt(25))+r.nextInt(9));
+		
+		}
+		
+	}
+
+}

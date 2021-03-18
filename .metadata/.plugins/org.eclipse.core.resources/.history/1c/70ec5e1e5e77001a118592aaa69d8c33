@@ -1,0 +1,27 @@
+package application;
+
+import java.awt.Label;
+import java.awt.TextArea;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
+
+public class control {
+	
+	@FXML TextField n1;
+	@FXML private TextField n2;
+	@FXML private TextArea tx;
+
+	
+
+	
+	@FXML void Oncheck() {
+
+		String a = n1.getText();
+		n2.setText(a);
+		tx.setText(a);
+
+		
+	}
+
+}

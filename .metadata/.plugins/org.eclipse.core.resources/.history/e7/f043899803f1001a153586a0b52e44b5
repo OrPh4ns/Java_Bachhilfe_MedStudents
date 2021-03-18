@@ -1,0 +1,14 @@
+
+public class Diego1 {
+
+	public static void bool() {
+		boolean a = true;
+		boolean b = false;
+		
+		System.out.println(a&&a);
+	}
+	public static void main(String[] args) {
+		
+		
+	}
+}

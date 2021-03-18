@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;run&apos; to &apos;PES/src/Threads&apos;&#x0D;&#x0A;- Original project: &apos;Threads&apos;&#x0D;&#x0A;- Destination element: &apos;PES/src/Threads&apos;&#x0D;&#x0A;- Original element: &apos;Threads/src/run&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=PES/src&lt;Threads" element1="/src&lt;run" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1591191508509" version="1.0"/>
+</session>
