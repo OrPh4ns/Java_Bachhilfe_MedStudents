@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+D:\OneDrive - ges.thm.de\Dev\Java\Java_Codes\.metadata\.plugins\org.eclipse.jdt.core
-3741394562.index
-2658430596.index
-2227672016.index
